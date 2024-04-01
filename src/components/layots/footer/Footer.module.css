@@ -1,0 +1,90 @@
+.footer {
+  width: 100%;
+  height: 489px;
+  background-image: url(../../../assets/foot-img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 100px;
+}
+.logobox {
+  display: block;
+  text-align: center;
+}
+.logo {
+  margin-bottom: 56px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 24px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+.link {
+  font-family: TT Norms;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  text-decoration: none;
+  text-align: left;
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+}
+.list {
+  position: relative;
+}
+.list::before {
+  content: "";
+  width: 7px;
+  border-radius: 50%;
+  height: 7px;
+  background-color: white;
+  position: absolute;
+  left: -22px;
+  top: 16px;
+}
+
+.list:first-child::before {
+  content: "";
+  width: 0px;
+  border-radius: 50%;
+  height: 0px;
+}
+.contact {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+.link_con {
+  font-family: TT Norms;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.foot_end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  font-family: TT Norms;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+
+  color: white;
+}
